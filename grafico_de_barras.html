@@ -1,0 +1,51 @@
+<meta charset="UTF-8">
+<canvas width="600" height="400"></canvas>
+
+<script>
+
+	function desenhaRetangulo(x, y, largura, altura, cor) {
+		var tela = document.querySelector("canvas");
+		var pincel = tela.getContext("2d");
+
+		pincel.fillStyle = cor
+		pincel.fillRect(x, y, largura, altura);
+		pincel.strokeStyle = "black";
+		pincel.strokeRect(x, y, largura, altura);
+
+	}
+
+	function desenhaTexto(x, y, texto) {
+		var tela = document.querySelector("canvas");
+		var pincel = tela.getContext("2d");
+		
+		pincel.font = "15px Georgia";
+		pincel.fillStyle = "black";
+		pincel.fillText(texto, x, y);
+
+	}
+
+	var serie2015 = [50, 25, 20, 5];
+	var serie2016 = [65, 20, 13, 2];
+	
+	desenhaRetangulo(0, 0, 600, 400, "lightGrey");
+
+	// Série 2015
+	
+	desenhaTexto(50, 40, "Série 2015 = " + "[" + serie2015 + "]");
+	
+	desenhaRetangulo(100, 50, 70, 50,"blue");
+	desenhaRetangulo(100, 100, 70, 25,"green");
+	desenhaRetangulo(100, 125, 70, 20,"yellow");
+	desenhaRetangulo(100, 145, 70, 5,"red");
+
+	// Série 2016
+
+	desenhaTexto(300, 40, "Série 2016 = " + "[" + serie2016 + "]");
+	
+	desenhaRetangulo(350, 50, 70, 65, "blue");
+	desenhaRetangulo(350, 115, 70, 20, "green");
+	desenhaRetangulo(350, 135, 70, 13, "yellow");
+	desenhaRetangulo(350, 148, 70, 2, "red");
+
+
+</script>
