@@ -1,0 +1,42 @@
+<meta charset="UTF-8">
+<input>
+<button>Verifique</button>
+
+<script>
+
+	var input = document.querySelector("input");
+
+	var livros = Math.round(Math.random()*10);
+	console.log(livros);
+	input.focus()
+
+	var tentativas = 1
+	var maxTentativas = 3
+
+	function verificar() {
+
+		if(input.value == livros) {
+
+			alert("Sim essa é a quantidade certa");
+
+		} else {
+
+			if(tentativas == maxTentativas) {
+
+				alert("Numero de tentativas ultrapassadas");
+			} else {
+
+				alert("Não essa nao é a quantidade certa")
+			}
+
+		}
+		tentativas++
+		input.focus()
+	}
+
+
+	var button = document.querySelector("button");
+
+	button.onclick = verificar;
+
+</script>
