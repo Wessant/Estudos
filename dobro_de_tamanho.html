@@ -1,0 +1,38 @@
+<canvas width="600" height="400"></canvas>
+
+<script>
+	
+	// Caso for criar uma função que deseje acresentar cada vez o numero 
+	// a variavel tem de ficar do lado de fora de sua função
+	// Exemplo minha "VAR DOBRO = 10"
+	
+	var tela = document.querySelector("canvas");
+	var pincel = tela.getContext("2d");
+	pincel.fillStyle = "grey";
+	pincel.fillRect(0, 0, 600, 400);
+
+	var dobro = 10
+
+	function desenhaCirculo(evento) {
+	
+		var x = evento.pageX - tela.offsetLeft;
+        var y = evento.pageY - tela.offsetTop;
+        console.log(x + ',' + y);
+
+        if(evento.shiftKey){
+
+        	dobro = dobro + 10
+
+        }
+
+        pincel.fillStyle = "blue";
+        pincel.beginPath();
+        pincel.arc(x, y, dobro, 0, 2 * 3.14);
+        pincel.fill();
+
+
+	}
+
+	tela.onclick = desenhaCirculo;
+
+</script>
