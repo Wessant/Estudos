@@ -1,0 +1,33 @@
+<meta charset="UTF-8">
+
+<script>
+	
+	var user = "w"
+	var senha = 789
+
+	var tentativas = 1
+	var maxTentativas = 3
+	
+	while(tentativas <= maxTentativas) {
+
+		var loginUser = prompt("Username: ");
+		var loginSenha = parseInt(prompt("Senha: "));
+
+		if(loginUser == user && loginSenha == senha) {
+
+			alert("Acesso Permitido");
+			break
+		} else {
+
+			if(tentativas == maxTentativas) {
+
+				alert("Numero de tentativas excedida, tente novamente mais tarde");
+			} else {
+
+				alert("Username ou senha incorreto, tente novamente");
+			}
+		}
+		tentativas++
+	}
+
+</script>
