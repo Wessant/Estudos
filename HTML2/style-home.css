@@ -1,8 +1,26 @@
-.titulo-principal {
+header {
 
 }
 
 #banner {
 	height: 500px;
-	width: 95%;
+	width: 100%;
+	padding: 0 auto;
+}
+
+nav li {	
+	display: inline;
+	margin: 0 0 0 15px;
+	
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #000000;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+footer {
+	text-align: center;
+	background: url(bg.jpg);
+	padding: 5px;
 }
