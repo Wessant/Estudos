@@ -8,15 +8,36 @@ header {
 	padding: 0 auto;
 }
 
-nav li {	
+nav {
+	position: absolute;
+	top: 18px;
+	right: 10px;
+
+}
+
+nav li {
 	display: inline;
-	margin: 0 0 0 15px;
-	
+	margin: 0 0 0 15px;	
 	text-transform: uppercase;
 	font-weight: bold;
 	color: #000000;
 	font-size: 18px;
 	text-decoration: none;
+}
+
+h2{
+	text-align: center;
+}
+
+p {
+	text-align: center;
+	font-size: 18px;
+}
+
+#beneficios {
+	width: 50%;
+	position: relative;
+	left: 25%;
 }
 
 footer {
