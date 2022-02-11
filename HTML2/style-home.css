@@ -18,6 +18,9 @@ nav {
 nav li {
 	display: inline;
 	margin: 0 0 0 15px;	
+}
+
+nav a {
 	text-transform: uppercase;
 	font-weight: bold;
 	color: #000000;
@@ -41,7 +44,12 @@ p {
 }
 
 footer {
-	text-align: center;
+	text-align: left;
 	background: url(bg.jpg);
-	padding: 5px;
+}
+
+.copyright {
+	color: #FFFFFF;
+	font-size: 18px;
+	margin: 20px 0 0;
 }
