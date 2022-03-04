@@ -1,12 +1,28 @@
-header h1 {
-    font-size: 20px;
+header {
+	background-color: yellow;
+	padding: 20px;
+}
+
+h1 {
+    font-size: 30px;
     text-transform: uppercase;
+	position: relative;
+	margin: 50px;
+}
+
+#logo-titulo {
+	height: 100px;
+	width: 10%;
+	position: absolute;
+	top: 50px;
+	left: 45%;
+
 }
 
 nav ul {
     position: absolute;
-    top: 18px;
-    right: 10px;
+    top: 70px;
+    right: 20px;
 }
 
 nav li {
