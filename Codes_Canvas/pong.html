@@ -4,13 +4,36 @@
 
 	var tela = document.querySelector("canvas");
 	var pincel = tela.getContext("2d");
-
 	pincel.fillStyle = "black"
 	pincel.fillRect(0, 0, 600, 400);
 
-	pincel.fillStyle = "white"
-	pincel.beginPath();
-	pincel.arc(200, 200, 10, 0, 2*3.14);
-	pincel.fill();
+	var xBolinha = 200
+	var yBolinha = 200
+	var velocidadeXBolinha = 5
+	var velocidadeYBolinha = 5
+
+	function desenhaBolinha() {
+
+		pincel.fillStyle = "white"
+		pincel.beginPath();
+		pincel.arc(xBolinha, yBolinha, 10, 0, 2*3.14);
+		pincel.fill();
+	}
+
+	function limparTela() {
+		clearRect(0, 0, 600, 400);
+	}
+
+	function movimentoBolinha() {
+
+		limparTela()
+
+		while(xBolinha == xBolinha){
+			xBolinha++
+		}
+		desenhaBolinha(xBolinha, yBolinha, 10, 0, 2*3.14);
+	}
+
+	setInterval(movimentoBolinha, 50);
 
 </script>
