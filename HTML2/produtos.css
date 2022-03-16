@@ -50,6 +50,10 @@ nav a {
 	
 }
 
+main {
+	background: linear-gradient(#FEFEFE,#888888);
+}
+
 .produtos {
 	width: 90%;
 	margin: 0 auto;
