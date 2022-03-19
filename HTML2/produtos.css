@@ -1,5 +1,5 @@
 header {
-	background-color: yellow;
+	background-color: yellowgreen;
 	padding: 20px;
 }
 
@@ -38,6 +38,11 @@ nav a {
 	text-decoration: none;
 }
 
+nav a:hover {
+	color: #FEFEFE;
+	text-decoration: underline;
+}
+
 #banner {
 	height: 500px;
 	width: 100%;
@@ -70,4 +75,9 @@ main {
 	box-sizing: border-box;
 	border: 2px solid #000000;
 	border-radius: 20px;
+}
+
+.produtos li:hover {
+	border-color: yellowgreen;
+	transform: scale(1.1);
 }
