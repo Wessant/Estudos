@@ -1,0 +1,22 @@
+body {
+    width: 700px;
+    margin: auto;
+    font-size: 22px;
+    font-family: sans-serif;
+    background-image: url(imagens/bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right bottom;
+}
+
+.img-html {
+    float: left;
+}
+
+.img-css {
+    float: right;
+}
+
+p {
+    line-height: 1.5;
+}
