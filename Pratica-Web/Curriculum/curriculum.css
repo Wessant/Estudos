@@ -1,0 +1,50 @@
+body {
+    font-family: verdana, sans-serif;
+    color: #444;
+}
+
+.nome {
+    text-align: center;
+    color: #9f461f;
+    background-color: lightsalmon;
+    margin: 0 30px 30px ;
+}
+
+p {
+    margin: 0 30px;
+}
+
+.locais {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 30px;
+}
+
+.area {
+    font-weight: bold;
+    margin:  15px 30px;
+}
+
+.informacoes {
+    color: red;
+    background-color: lightcoral;
+    border-bottom-style: solid;
+    margin: 30px;
+    padding: 10px;
+}
+
+.formacao {
+    font-weight: bold;
+    margin: 20px 30px;
+}
+
+ul {
+    list-style-position: inside;
+}
+
+.estudos {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 20px 30px;
+}
