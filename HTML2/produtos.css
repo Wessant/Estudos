@@ -81,3 +81,11 @@ main {
 	border-color: yellowgreen;
 	transform: scale(1.1);
 }
+
+footer {
+	text-align: center;
+	padding: 20px 20px;
+	background-color: #555;
+	color: white;
+	text-transform: uppercase;
+}
