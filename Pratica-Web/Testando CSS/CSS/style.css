@@ -1,0 +1,104 @@
+body {
+    font-family: sans-serif;
+    background-color: #ccc;
+}
+
+.principal {
+    background-image: url(../imagens/bg-1.jpg);
+    height: 500px;
+    background-size: cover;
+    background-position: right top;
+    border-top: 1px solid transparent;
+}
+
+.principal-content {
+    text-align: center;
+    color: white;
+    margin: 160px;
+}
+
+.principal-content h1 {
+    text-transform: uppercase;
+    font-size: 40px;
+    text-shadow: 3px 5px 3px #333;
+}
+
+.principal-content p {
+    margin-top: 100px;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: inline-block;
+    padding: 15px;
+    border-bottom: 2px solid white;
+}
+
+nav ul {
+    text-align: right;
+    margin: 20px 50px;
+}
+
+nav li {
+    display: inline-block;
+    list-style: none;
+    border: 1px solid white;
+    margin-left: 10px;
+}
+
+nav a {
+    background: rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+nav li:hover {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+main {
+    width: 80%;
+    margin: auto;
+}
+
+.section-content {
+    background-color: white;
+    padding: 10px;
+    margin-top: 15px;
+    overflow: auto;
+}
+
+.card-1, .card-2 {
+    margin-right: 2%;
+}
+
+.card {
+    width: 32%;
+    float: left;
+}
+
+.card img {
+    width: 100%;
+    display: block;
+}
+
+.card p {
+    background-color: rgb(66, 64, 64);
+    color: white;
+    margin: 0;
+    padding: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+footer {
+    text-align: center;
+    background-color: #6b6c68;
+    color: white;
+    padding: 15px;
+    margin-top: 15px;
+    text-shadow: 2px 2px 2px black;
+}
+
