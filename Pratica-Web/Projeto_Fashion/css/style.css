@@ -1,0 +1,57 @@
+#principal {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.logo {
+    position: absolute;
+    top: 9%;
+    right: 65%;
+}
+
+.imagem-logo {
+    margin-top: 100px;
+}
+
+nav ul {
+    margin: 20px 50px;
+    position: absolute;
+    top: 8%;
+    right: 8%;
+}
+
+nav li {
+    display: inline-block;
+    list-style: none;
+}
+
+nav a {
+    display: block;
+    background-color: aqua;
+}
+
+.informacoes h1 {
+    margin: 50px 0px;
+    text-transform: uppercase;
+}
+.informacoes p {
+    text-align: center;
+}
+
+.galeria {
+    margin-top: 50px;
+}
+
+.card {
+    width: 20%;
+    float: left;
+}
+
+.card-1, .card-2 {
+    margin-right: 2%;
+}
+
+.card img {
+    width: 100%;
+    display: block;
+}
