@@ -93,6 +93,17 @@ main {
     letter-spacing: 2px;
 }
 
+.titulo-secundario {
+    margin-bottom: 20px;
+    background-color: #d2d3cc;
+    padding: 10px;
+    border-bottom: 2px solid rgb(112, 110, 110);
+}
+
+article p {
+    margin-bottom: 20px;
+}
+
 footer {
     text-align: center;
     background-color: #6b6c68;
